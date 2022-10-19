@@ -2,6 +2,16 @@
 
 Um app semelhante ao app do youtube em uma versão simplificada para dispositivos moveis
 
+## Instalação
+1. Clone esse repositório ou faça o download dos arquivos
+2. Abra o projeto no Visual Studio Code
+3. Abra o Terminal e execute o comando `expo init` para instalar os módulos do Node.
+4. Use o comando `react-native link` para que todos os assets sejam linkados ao projeto
+5. Execute o projeto com `expo start` ou `expo run:android` se desejar que o firebase funcione dentro da aplicação.
+6. Enjoy!
+
+<br><br>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
