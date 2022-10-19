@@ -17,12 +17,15 @@ class Api {
           "&order=date"
           "&key=$CHAVE_YOUTUBE_API"
           "&channelId=$ID_CANAL"
-          "&q=$pesquisa" + URL_BASE
+          "&q=$pesquisa"
     );
 
     if( response.statusCode == 200 ){
 
-      print("resultado: " + response.body);
+      Map<String, dynamic> dadosJson = json.decode( response.body );
+      print("resultado: " + dadosJson["items"][0]["snippet"]["title"].toString() );
+
+    }else{
 
     }
   }
