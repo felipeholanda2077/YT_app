@@ -3,7 +3,7 @@
 Um app semelhante ao app do youtube em uma versão simplificada para dispositivos moveis
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=yellow&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=green&style=for-the-badge"/>
 </p>
 
 ## Instalação
